@@ -15,28 +15,25 @@ namespace CalculadoraLogica.servicios
         }
 
 
-        public string igualdad()
+        public void igualdad()
         {
             Console.WriteLine("Introduzca la primera expresion");
             string expresion1 = DameExpresion();
             Console.WriteLine("Introduzca la segunda expresion");
             string expresion2 = DameExpresion();
-            Console.WriteLine("Resultado de la igualdad: " + expresion1 == expresion2);
-
-            return ;
+            Console.WriteLine("Resultado:");
+            Console.WriteLine(expresion1==expresion2);
 
         }
 
-        public string desigualdad()
+        public void desigualdad()
         {
             Console.WriteLine("Introduzca la primera expresion");
             string expresion1 = DameExpresion();
             Console.WriteLine("Introduzca la segunda expresion");
             string expresion2 = DameExpresion();
-            Console.WriteLine("Resultado de la igualdad: " + expresion1 != expresion2);
-
-            return ;
+            Console.WriteLine("Resultado: ");
+            Console.WriteLine(expresion1!=expresion2);
         }
-    
     }
 }

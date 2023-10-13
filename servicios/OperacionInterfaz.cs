@@ -8,8 +8,9 @@ namespace CalculadoraLogica.servicios
 {
     internal interface OperacionInterfaz
     {
-        public string igualdad();
+        public void igualdad();
 
-        public string desigualdad();
+        public void desigualdad();
+
     }
 }
